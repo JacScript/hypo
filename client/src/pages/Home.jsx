@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import NavBar from "../components/Navbar";
+import Newletter from "../components/Newletter";
 
 const products = [
   {
@@ -92,6 +93,8 @@ const Home = () => {
             </Link>
           ))}
         </div>
+
+        <Newletter/>
       </div>
     </div>
   )
